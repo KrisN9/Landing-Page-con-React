@@ -15,10 +15,16 @@ const Home = () => {
 		</div>
 		<div>
 			<MyCard />
-			<MyCard />
-			<MyCard />
-			<MyCard />
 		</div>	
+		<div>
+			<MyCard />
+		</div>
+		<div>
+			<MyCard />
+		</div>
+		<div>
+			<MyCard />
+		</div>
 		</ >
 	);
 };

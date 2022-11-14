@@ -2,29 +2,22 @@ import React from "react";
 import MyCard from "./MyCard";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
+import Footer from "./Footer";
 
 //create your first component
 const Home = () => {
 	return (
 		<>
-		<div>
 			<Navbar />
-		</div>
-		<div>
 			<Jumbotron />
-		</div>
-		<div>
-			<MyCard />
-		</div>	
-		<div>
-			<MyCard />
-		</div>
-		<div>
-			<MyCard />
-		</div>
-		<div>
-			<MyCard />
-		</div>
+			<div className="container">
+				<div className="row">
+					<MyCard />
+					<MyCard />
+					<MyCard />
+					<MyCard />
+				</div>
+			</div>	
 		</ >
 	);
 };

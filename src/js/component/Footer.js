@@ -1,9 +1,11 @@
-import react from "react";
+import React from "react";
 
 const Footer = () => {
     return (
-        <div className="container-fluid">
-            <p>Copyright @ Your Website 2019</p>
+        <div class="container-fluid">
+            <footer class="py-3 my-4 bg-dark">
+                <p class="text-center text-white"> Copyright &copy; Your Website 2019</p>
+            </footer>
         </div>
     )
 }
